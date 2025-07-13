@@ -58,6 +58,16 @@ You can add your own additional characters in the plugin settings.
 
 ---
 
+---
+
+### 💡 Need to lint your entire vault?
+
+This plugin only checks active files or folders when they are opened or renamed.  
+If you'd like to **scan and fix all existing files in your vault**, check out [obsidian-safe-filename-linter](https://github.com/sneakyfoxes/obsidian-safe-filename-linter) by @sneakyfoxes.
+
+
+---
+
 ## 💬 Support
 
 Suggestions or issues? [Open an issue on GitHub](https://github.com/yourusername/cross-os-name-guard/issues).
