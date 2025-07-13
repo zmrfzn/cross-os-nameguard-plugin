@@ -1,8 +1,8 @@
 {
 	"name": "cross-os-nameguard",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
-	"main": "main.js",
+	"description": "TWarns about forbidden file and folder characters that may break sync across operating systems. Highlights file titles and shows notices when issues are found.",
+	"main": "src/main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
