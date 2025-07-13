@@ -4,20 +4,33 @@
 
 ---
 
-## 💡 What it does
+## ⚡ Features
 
-✅ Warns you when file or folder names contain characters that can break sync on Windows, macOS, or Linux.  
+✅ Warns you when file or folder names contain characters that can break sync on Windows, macOS, Linux or Android.  
 ✅ Adds a ⚠️ icon in the title bar of affected files.  
 ✅ Shows a clear notice listing forbidden characters.  
-✅ Supports additional custom forbidden characters (configurable in plugin settings).
+✅ Customizable additional forbidden characters (via plugin settings)
 
 ---
 
 ## 🚀 How to use
 
-1. Install the plugin manually (copy to `.obsidian/plugins/cross-os-name-guard/`) or install from Community Plugins when approved.
-2. Enable the plugin in **Settings → Community plugins → Installed plugins**.
-3. Check **Settings → Cross-OS Name Guard** to optionally add extra forbidden characters.
+### 🌟 Install from Community Plugins (recommended)
+
+1. In Obsidian, go to **Settings → Community plugins → Browse**.
+2. Search for **Cross-OS Name Guard**.
+3. Click **Install**, then enable it from the Installed plugins list.
+
+---
+
+### 💻 Manual installation (advanced)
+
+1. Download the latest [release zip](https://github.com/yourusername/cross-os-name-guard/releases).
+2. Extract the contents (should include `main.js`, `manifest.json`, and optionally `styles.css`) into your vault's plugin folder:
+
+    - On desktop: `.obsidian/plugins/cross-os-name-guard/`
+    - On mobile: `Obsidian/plugins/cross-os-name-guard/`
+3. Restart Obsidian or reload plugins, then enable it in **Settings → Community plugins → Installed plugins**.
 
 ---
 
@@ -29,12 +42,12 @@
 
 ---
 
-## 📥 Installation (Manual)
+### ⚙️ Configure
 
-1. Download or clone this repository.
-2. Copy `main.js`, `manifest.json`, and `styles.css` (if any) to your vault's `.obsidian/plugins/cross-os-name-guard/` folder.
-3. Restart or reload Obsidian and enable the plugin.
-
+- Open **Settings → Cross-OS Name Guard**.
+- Optionally add extra forbidden characters to customize validation.
+  
+  
 ---
 
 ## 💬 Support
