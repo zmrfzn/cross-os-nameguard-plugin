@@ -1,11 +1,13 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "cross-os-name-guard",
+	"name": "Cross-OS Name Guard",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
-}
+	"description": "Warns about forbidden file and folder characters that may break sync across operating systems. Highlights file titles and shows notices when issues are found.",
+	"author": "Zameer Fouzan",
+	"authorUrl": "https://linkedin.com/in/zmrfzn",
+	"fundingUrl": "https://coff.ee/zameerfouzan",
+	"isDesktopOnly": false,
+	"main": "dist/main.js"
+  }
+  
