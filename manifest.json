@@ -7,7 +7,5 @@
 	"author": "Zameer Fouzan",
 	"authorUrl": "https://linkedin.com/in/zmrfzn",
 	"fundingUrl": "https://coff.ee/zameerfouzan",
-	"isDesktopOnly": false,
-	"main": "main.js"
-  }
-  
+	"isDesktopOnly": false
+}
