@@ -8,6 +8,6 @@
 	"authorUrl": "https://linkedin.com/in/zmrfzn",
 	"fundingUrl": "https://coff.ee/zameerfouzan",
 	"isDesktopOnly": false,
-	"main": "dist/main.js"
+	"main": "main.js"
   }
   
