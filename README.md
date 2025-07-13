@@ -6,10 +6,16 @@
 
 ## ⚡ Features
 
-✅ Warns you when file or folder names contain characters that can break sync on Windows, macOS, Linux or Android.  
+✅ Warns you when file or folder names contain characters that can break sync on Windows, macOS, Linux, or Android.  
 ✅ Adds a ⚠️ icon in the title bar of affected files.  
 ✅ Shows a clear notice listing forbidden characters.  
-✅ Customizable additional forbidden characters (via plugin settings)
+✅ Customizable additional forbidden characters (via plugin settings).
+
+---
+
+### 📷 Screenshot
+
+![Title bar warning and notice banner](./screenshot-1.jpg)
 
 ---
 
@@ -30,24 +36,26 @@
 
     - On desktop: `.obsidian/plugins/cross-os-name-guard/`
     - On mobile: `Obsidian/plugins/cross-os-name-guard/`
+
 3. Restart Obsidian or reload plugins, then enable it in **Settings → Community plugins → Installed plugins**.
 
 ---
 
-## ⚙️ Features
-
-- Default forbidden characters: `\ / : * ? " < > | % = # ^ [ ]`
-- Add your own extra characters to forbid
-- Title bar warnings and slide-up notice popups
-
----
-
-### ⚙️ Configure
+## ⚙️ Configuration
 
 - Open **Settings → Cross-OS Name Guard**.
 - Optionally add extra forbidden characters to customize validation.
-  
-  
+
+---
+
+## 🔒 Default forbidden characters
+
+```
+\ / : * ? " < > | % # ^ [ ]
+```
+
+You can add your own additional characters in the plugin settings.
+
 ---
 
 ## 💬 Support
